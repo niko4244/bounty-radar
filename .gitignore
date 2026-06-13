@@ -1,0 +1,34 @@
+# Bounty Radar — keep the public repo clean of outputs and anything sensitive.
+
+# Scan outputs
+report.md
+report.json
+hits.json
+*.report.md
+*.report.json
+monitor-log.md
+strikeable.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Never publish secrets or env
+.env
+.env.*
+*.key
+*.pem
+auth.json
+*credentials*
+*secret*
+
+# The paid kit lives in a SEPARATE sibling folder and must never be committed here.
+kit/
+pro/
+bounty-radar-kit/
+
+# OS noise
+.DS_Store
+Thumbs.db
