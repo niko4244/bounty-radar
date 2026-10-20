@@ -35,7 +35,8 @@ import sys
 NOISE_REPO = re.compile(
     r"rustchain|mergework|charles-microbounties|charles-openclaw|bountyscout|"
     r"atrium-forum|devpool-directory|agent-playground|sn-monetization-runtime|"
-    r"clankernation|\bclanker\b|openagents|securebananalabs|oss-hunter-livefire",
+    r"clankernation|\bclanker\b|openagents|securebananalabs|oss-hunter-livefire|"
+    r"unsafelabs|aquarium-of-gullibles|senthemodder|bounty-plaza|zhangjiayang6835-cyber|jarvus-pub",
     re.I,
 )
 # Aggregator-bot / token-payout / synthetic-task title patterns. The "calculate
